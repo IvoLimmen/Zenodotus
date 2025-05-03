@@ -25,101 +25,101 @@
       <dependency>
         <groupId>io.swagger.core.v3</groupId>
         <artifactId>swagger-models</artifactId>
-        <version>2.2.15</version>
+        <version>2.2.30</version>
       </dependency>
       <dependency>
         <groupId>io.swagger.core.v3</groupId>
         <artifactId>swagger-core</artifactId>
-        <version>2.2.15</version>
+        <version>2.2.30</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-xml</artifactId>
-        <version>2.15.2</version>
+        <version>2.19.0</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.15.2</version>
+        <version>2.19.0</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-annotations</artifactId>
-        <version>2.15.2</version>
+        <version>2.19.0</version>
       </dependency>
       <dependency>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctorj</artifactId>
-        <version>2.5.10</version>
+        <version>3.0.0</version>
       </dependency>
       <dependency>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctorj-diagram</artifactId>
-        <version>2.2.11</version>
+        <version>2.3.2</version>
       </dependency>
       <dependency>
         <groupId>org.asciidoctor</groupId>
         <artifactId>asciidoctorj-pdf</artifactId>
-        <version>2.3.9</version>
+        <version>2.3.19</version>
       </dependency>
       <dependency>
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
-        <version>2.3.32</version>
+        <version>2.3.34</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-text</artifactId>
-        <version>1.10.0</version>
+        <version>1.13.1</version>
       </dependency>
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.16.0</version>
+        <version>1.18.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-model</artifactId>
-        <version>3.9.4</version>
+        <version>3.9.9</version>
       </dependency>
       <dependency>
         <groupId>info.picocli</groupId>
         <artifactId>picocli</artifactId>
-        <version>4.7.4</version>
+        <version>4.7.7</version>
       </dependency>
 
       <!-- logging -->
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.4.11</version>
+        <version>1.5.18</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
-        <version>2.0.7</version>
+        <version>2.0.17</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource.jansi</groupId>
         <artifactId>jansi</artifactId>
-        <version>2.4.0</version>
+        <version>2.4.2</version>
       </dependency>
             
       <!-- testing stuff -->
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.10.0</version>
+        <version>5.12.2</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
-        <version>4.11.0</version>
+        <version>5.17.0</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-junit-jupiter</artifactId>
-        <version>4.11.0</version>
+        <version>5.17.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -138,27 +138,27 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.14.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.4.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.1.2</version>
+          <version>3.5.3</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.5.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-shade-plugin</artifactId>
-          <version>3.5.0</version>
+          <version>3.6.0</version>
         </plugin>        
       </plugins>
     </pluginManagement>
