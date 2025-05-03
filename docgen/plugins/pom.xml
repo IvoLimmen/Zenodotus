@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.limmen.zenodotus</groupId>
-    <artifactId>zenodotus-project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>  
+    <groupId>org.limmen.docgen</groupId>
+    <artifactId>docgen-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
 
   <groupId>org.limmen.docgen.plugins</groupId>
