@@ -38,7 +38,7 @@ The configuration file has the following properties.
     "includeNavigation": true, <1>
     "includeSearch": true, <2>
     "footer": { <3>
-      "copyright": "© 2021 Copyright",
+      "copyright": "© 2025 Copyright",
       "link": {
         "name": "Zenodotus",
         "url": "https://github.com/IvoLimmen/Zenodotus"
@@ -64,7 +64,7 @@ Create a copy of the `docgen.json.template` file and call it `docgen.json` in th
 .Running the application from the command line
 [source,bash]
 ----
-CONFIG_DIR=[path-to-docgen]/config mvn exec:java -pl org.limmen.docgen:docgen-app
+CONFIG_DIR=${PWD}/config mvn exec:java -pl :docgen-app
 ----
 
 ### Testing the generated site
@@ -91,4 +91,10 @@ $ php -S localhost:8080
 ----
 $ npm install -g node-static
 $ static -p 8000
+----
+
+.Running a webserver using Java (Java 18+)
+[source,bash]
+----
+$ jwebserver -d ${PWD}/output -b 0.0.0.0 -p 8080
 ----

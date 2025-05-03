@@ -13,8 +13,8 @@ Generates:
 
 Minimal requirements:
 
-* Java 17 or higher
-* Maven 3.8.* or higher
+* Java 24 or higher
+* Maven 3.9.* or higher
 
 ## Building the application
 
@@ -26,7 +26,7 @@ Run:
 
 After compiling you can run:
 
-    mvn -pl app exec:java
+    CONFIG_DIR=${PWD}/config mvn -pl :docgen-app exec:java
 
 ## More information
 
